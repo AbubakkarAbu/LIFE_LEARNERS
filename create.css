@@ -1,0 +1,76 @@
+body{
+	background-image: url("about.jpg");
+	background-size:1366px 700px;
+
+}
+.createaccount{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:75vh;
+	margin:0;
+	color:white;
+	font-family:fantasy;
+}
+.reg{
+	background-color:black;
+	opacity:0.8;
+	padding:2em;
+	border-radius: 20px;
+	margin:1em;
+	backface-visibility: hidden;
+}
+.log{
+	text-align: center;
+	font-size: 2em;
+
+}
+.error{
+	color:red;
+}
+button{
+	background-color:mediumseagreen;
+	font-size:1em;
+	width: 17em;
+	height: 2em;
+	border-radius:5px;
+}
+input{
+	font-size: 15px;
+	display: block;
+	border-radius: 5px;
+	height:2em;
+	width: 18em;
+	outline:none;
+	border:1px;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+img{
+	height: 80px;
+	width: 320px;
+	border: 3px;
+	padding: 10px;
+	margin-top:-3.9em;
+	margin-left:-11px;
+	border-radius:20px;
+	opacity: 0.8;
+}

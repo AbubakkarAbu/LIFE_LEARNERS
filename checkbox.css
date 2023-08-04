@@ -1,0 +1,74 @@
+body{
+	background-image:url("trees.jpg");
+	background-repeat: no-repeat;
+	background-size: 1300px 700px;
+	background-color:white;
+}
+
+.image{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:85vh;
+	margin:0;
+	color:white;
+	font-family:fantasy;
+
+
+}
+.button{
+	background-color:transparent;
+	opacity:0.8;
+	padding:2em;
+	border-radius: 10px;
+	margin:1em;
+	backface-visibility: hidden;
+}
+h1{
+	justify-content: center;
+	align-items: center;
+	color:black;	
+	text-align: center;
+}
+img{
+	height: 80px;
+	width: 320px;
+	border: 3px;
+	padding: 10px;
+	margin-top:-4.9em;
+	margin-left:-11px;
+	border-radius:20px;
+}
+button{
+	width: 190px;
+	height: 45px;
+	border-radius: 10px;
+	background-color:white;
+	color:black;
+	font-size: 18px;
+	background-color: mediumseagreen;
+	
+}
+.input1{
+	font-size: 300px;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

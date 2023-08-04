@@ -1,0 +1,41 @@
+body{
+	background-image: url("canteen 2.jpg");
+	background-repeat: no-repeat;
+	background-size:1300px 700px;
+	color:red;
+}
+input{
+	height: 20px;
+	width: 30px;
+}
+label{
+	font-size: 30px;
+	color:red;
+}
+.submit{
+	width: 30px;
+}
+button{
+	margin-left: 200px;
+	height: 40px;
+	width: 80px;
+	font-size: 20px;
+	font: bold;
+	background-color:gold;
+	color:black;
+}
+.img{
+	display:flex;
+	height:85vh;
+	margin:0;
+	font-family:fantasy;
+}
+.mess{
+	background-color:black;
+	opacity:0.6;
+	padding:2em;
+	border-radius: 10px;
+	margin:1em;
+	backface-visibility: hidden;
+	height: 600px;
+}

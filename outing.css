@@ -1,0 +1,44 @@
+body{
+	background-image: url("outing.jpg");
+	background-repeat: no-repeat;
+	background-size:1300px 800px;
+	color:white;
+}
+input{
+	height: 20px;
+	width: 30px;
+}
+label{
+	font-size: 30px;
+	color:white;
+}
+.submit{
+	width: 30px;
+}
+button{
+	margin-left: 200px;
+	height: 40px;
+	width: 80px;
+	font-size: 20px;
+	font: bold;
+	background-color:gold;
+	color:black;
+}
+.img{
+	display:flex;
+	height:85vh;
+	margin:0;
+	font-family:fantasy;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.outing{
+	background-color:black;
+	opacity:0.6;
+	padding:2em;
+	border-radius: 10px;
+	margin:1em;
+	backface-visibility: hidden;
+	height: 350px;
+}

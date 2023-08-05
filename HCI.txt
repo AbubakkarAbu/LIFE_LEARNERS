@@ -1,0 +1,8 @@
+HCI:
+Human-Computer Interaction (HCI) is a field of study that deals with the design, evaluation, and implementation of interactive computer systems and other digital technologies with the aim of improving their usability and user experience. It is concerned with how people interact HCI aims to create computer systems that are easy to use, efficient, and satisfying for users.
+what is ergonics:
+ is a scientific discipline concerned with understanding the interactions between humans and their environment, including the design of products, systems, and workspaces that are safe, efficient, and comfortable for people to use. Ergonomics aims to optimize the interaction between people and their environment, by taking into account human capabilities, limitations, and needs.
+gulf of evaluation in hci:
+The Gulf of Evaluation is a term used in Human-Computer Interaction (HCI) to refer to the difference between a user's expectations and their perception of the system's feedback. It is the gap between what the user expects to happen when they interact with the system and what actually happens in response to their actions.
+WHAT IS ICONIFYING
+process of reducing a complex object or concept into a simple and easily recognizable symbol or icon. This is done to help users understand and interact with complex information or functionality more easily.

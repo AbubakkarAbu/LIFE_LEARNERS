@@ -1,0 +1,87 @@
+Algorithm ----Deep learning algorithms(Convolutional neural network)
+
+
+"____Turk and Pentland____" suggested an approach to face recognition that uses dimensionality reduction and "linear algebra concepts to recognize faces"
+PCA (Principal Component Analysis) Algorithm
+
+It uses Eigenvalues and EigenVectors to reduce dimensionality and project a training sample/data on small feature space
+
+We first convert these images into vectors of size N2 such that:
+imagetovector
+
+https://www.geeksforgeeks.org/ml-face-recognition-using-eigenfaces-pca-algorithm/
+
+k-Nearest Neighbors:( lazy learner algorithm )
+
+k-NN is one of the most basic classification algorithms in machine learning
+
+It is generally used in data mining, pattern recognition, recommender systems and intrusion detection.
+
+Libraries used are:
+
+OpenCV2
+Pandas
+Numpy
+Scikit-learn
+
+ haarcascade_frontalface_default.xml dataset=====available in online you may download it
+
+3 python files
+
+1]facedetect.py
+2].csv
+3]recognize file
+
+
+npwriter.py – Create/Update ‘.csv’: file
+
+
+import cv2
+import numpy as np
+  
+# import the file where data is
+# stored in a csv file format
+import npwriter
+
+
+
+# this is used to access the web-cam
+# in order to capture frames
+cap = cv2.VideoCapture(0)
+
+
+
+import pandas as pd
+import numpy as np
+import os.path
+
+
+
+
+recog.py – Face-recognizer
+
+Working:
+
+Step-1: Select the number K of the neighbors
+Step-2: Calculate the Euclidean distance of K number of neighbors
+Step-3: Take the K nearest neighbors as per the calculated Euclidean distance.
+Step-4: Among these k neighbors, count the number of the data points in each category.
+Step-5: Assign the new data points to that category for which the number of the neighbor is maximum.
+Step-6: Our model is ready.
+
+
+
+  NUMPY : NumPy is a very popular python library for large multi-dimensional array and matrix processing
+
+
+ KERAS : Keras is a very popular Machine Learning library for Python. It is a high-level neural networks API capable of running on top of TensorFlow
+
+Keras for ML beginners to build and design a Neural Network.
+
+TENSORFLOW : TensorFlow is a very popular open-source library for high performance numerical computation 
+
+Tensorflow is a framework that involves defining and running computations involving tensors.TensorFlow is widely used in the field of deep learning research and application.
+
+
+
+
